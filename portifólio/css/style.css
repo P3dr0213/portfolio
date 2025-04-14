@@ -25,8 +25,9 @@ nav{
 }
 
 nav a {
-  margin: 0 1rem;
+  margin: 0;
   color: rgb(255, 255, 255);
+  padding-left: 8%;
 }
 section {
   padding: 2rem;
@@ -46,14 +47,17 @@ main {
   flex: 1;
 }
 
+/* visited link */
 a:visited {
   color: white;
 }
 
+/* mouse over link */
 a:hover {
   color: rgb(255, 5, 26);
 }
 
+/* selected link */
 a:active {
   color: blue;
 }
