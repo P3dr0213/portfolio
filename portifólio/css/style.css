@@ -16,10 +16,6 @@ header, footer {
   justify-content: center;
 }
 
-header{
-  text-align: center;
-}
-
 nav{
   background-color: #222;
 }
@@ -45,19 +41,4 @@ html{
 
 main {
   flex: 1;
-}
-
-/* visited link */
-a:visited {
-  color: white;
-}
-
-/* mouse over link */
-a:hover {
-  color: rgb(255, 5, 26);
-}
-
-/* selected link */
-a:active {
-  color: blue;
 }
