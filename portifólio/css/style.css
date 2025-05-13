@@ -65,6 +65,7 @@ img{
   flex-wrap: wrap;
   text-align: center;
   justify-content: center;
+  padding-top: 0  ;
 }
 
 .certificacoes{
@@ -126,9 +127,9 @@ div > p{
   border-radius: 10px;
 }
 
+
 .button {
     padding: 10px 20px;
-    font-size: large;
     display: flex;
     background-color: #12121250;
     color: rgb(255, 255, 255);
@@ -141,6 +142,7 @@ div > p{
     margin: 4px 2px;
     text-align: center;
     align-items: center;
+    justify-content: center;
 }
 
 
