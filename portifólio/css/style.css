@@ -129,9 +129,29 @@ div > p{
     justify-content: center;
 }
 
+.buttonC {
+  padding: 10px 20px;
+  display: flex;
+  background-color: #12121250;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  width: 30%;
+  height: auto;
+  flex-wrap: wrap;
+  text-decoration: none; 
+  margin: 4px 2px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
 
 .button:hover {
     background-color: rgb(3, 187, 254);
+}
+
+.buttonC:hover {
+  background-color: rgb(3, 187, 254);
 }
 
 .contato{
