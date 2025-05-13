@@ -8,7 +8,6 @@ body {
   background-color: #ffffff;  
 }
 
-/*Deixar o footer e o header pegando a página*/
 header, footer {
   background-color: #222;
   padding: 1rem;
@@ -17,7 +16,6 @@ header, footer {
   width: 100%;
 }
 
-/*Deixar o texto centralizado*/
 * {
   text-align: center;
   align-items: center;
@@ -136,7 +134,7 @@ div > p{
   color: rgb(255, 255, 255);
   border: none;
   border-radius: 5px;
-  width: 30%;
+  width: 50%;
   height: auto;
   flex-wrap: wrap;
   text-decoration: none; 
