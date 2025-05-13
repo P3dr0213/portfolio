@@ -134,11 +134,13 @@ div > p{
     color: rgb(255, 255, 255);
     border: none;
     border-radius: 5px;
-    width: 50%;
+    width: 100%;
     height: auto;
     flex-wrap: wrap;
     text-decoration: none; 
     margin: 4px 2px;
+    text-align: center;
+    align-items: center;
 }
 
 
