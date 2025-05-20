@@ -16,6 +16,10 @@ header, footer {
   width: 100%;
 }
 
+h2{
+  padding-bottom: 3%;
+}
+
 * {
   text-align: center;
   align-items: center;
@@ -65,12 +69,13 @@ img{
 }
 
 .foto{
-  width: 150px;      
-  height: 150px;
+  width: 200px;      
+  height: 200px;
   border-radius: 50%; 
   overflow: hidden;
   object-fit: cover;
   display: grid;
+  border: black solid 2px;
 }
 
 .escuro{
@@ -94,10 +99,6 @@ img{
   align-items: center;
 }
 
-div > p{
-  color: aliceblue;
-}
-
 .container > div {
   background-color:#12121250;
   margin: 10px;
@@ -107,6 +108,32 @@ div > p{
   width: auto;
   max-width: 600px;
   border-radius: 10px;
+}
+
+.container > div > p{
+  color: white;
+}
+
+.API{
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.API > div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 400px;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.API > div > p {
+  margin: 5%;
+  font-size:large;
+  text-indent: 0;
 }
 
 
@@ -125,6 +152,10 @@ div > p{
     text-align: center;
     align-items: center;
     justify-content: center;
+}
+
+.button:hover,.buttonC:hover{
+  transform: scale(1.2);
 }
 
 .buttonC {
@@ -198,5 +229,18 @@ div > p{
   .curriculoimg{
     height:70%;
     width:70% ;
+  }
+
+  .API{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .API >div >p{
+    font-size: x-small;
+  }
+
+    .API >div >h3{
+    font-size: medium;
   }
 }
