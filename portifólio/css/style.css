@@ -231,6 +231,10 @@ img{
     width:70% ;
   }
 
+  .button{
+    size: x-small;
+  }
+  
   .API{
     display: flex;
     flex-direction: column;
