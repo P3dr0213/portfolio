@@ -137,7 +137,7 @@ img{
 }
 
 
-.button {
+.button,.buttonA {
     padding: 10px 20px;
     display: flex;
     background-color: #12121250;
@@ -154,11 +154,12 @@ img{
     justify-content: center;
 }
 
-.button:hover,.buttonC:hover{
+.button:hover,.buttonC:hover,.buttonA:hover{
   transform: scale(1.2);
+  background-color: rgb(3, 187, 254);
 }
 
-.buttonC {
+.buttonC{
   padding: 10px 20px;
   display: flex;
   background-color: #12121250;
@@ -173,14 +174,6 @@ img{
   text-align: center;
   align-items: center;
   justify-content: center;
-}
-
-.button:hover {
-    background-color: rgb(3, 187, 254);
-}
-
-.buttonC:hover {
-  background-color: rgb(3, 187, 254);
 }
 
 .contato{
@@ -231,10 +224,6 @@ img{
     width:70% ;
   }
 
-  .button{
-    size: x-small;
-  }
-  
   .API{
     display: flex;
     flex-direction: column;
